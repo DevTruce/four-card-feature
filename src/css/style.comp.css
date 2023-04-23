@@ -90,7 +90,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 25%);
-  grid-gap: 4rem;
+  grid-column-gap: 3rem;
+  grid-row-gap: 1.5rem;
 }
 @media only screen and (max-width: 51.875em) {
   .main {
@@ -113,6 +114,9 @@ body {
   .card {
     width: 31rem;
     height: 22rem;
+  }
+  .card:not(:last-child) {
+    margin-bottom: 3rem;
   }
 }
 .card__heading {
