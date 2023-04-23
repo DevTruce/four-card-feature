@@ -14,7 +14,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/DevTruce/four-card-feature">
-    <img src="src/imgs/logo.png" alt="Logo" width="80" height="80">
+    <img src="src/imgs/favicon-32x32.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Four Card Feature</h3>
@@ -64,25 +64,19 @@
 
 [![Product Name Screen Shot][product-screenshot]](product-link)
 
-Here's a blank template to get started:
-
-- Do a search and replace all with your text editor for the following: `four-card-feature`, `Four Card Feature`, `fem challenge`,
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
 - [![HTML5][html5-icon]][html5-link]
 - [![CSS3][css3-icon]][css3-link]
+- [![SASS][sass-icon]][sass-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
