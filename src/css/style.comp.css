@@ -58,11 +58,7 @@ body {
 .heading--2 {
   font-size: 3.6rem;
   font-weight: 600;
-}
-@media only screen and (max-width: 51.875em) {
-  .heading--2 {
-    margin-bottom: 3rem;
-  }
+  margin-bottom: 3rem;
 }
 
 .header {
@@ -106,7 +102,7 @@ body {
 
 .card {
   width: 35rem;
-  height: 25rem;
+  height: 20rem;
   padding: 3rem;
   position: relative;
   border-radius: 0.5rem;

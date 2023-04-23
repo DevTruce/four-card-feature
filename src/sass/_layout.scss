@@ -8,10 +8,7 @@
 .heading--2 {
   font-size: $font-huge;
   font-weight: 600;
-
-  @include respond(phone) {
-    margin-bottom: 3rem;
-  }
+  margin-bottom: 3rem;
 }
 
 //////////////////////////////////////////////////
@@ -61,7 +58,7 @@
 
 .card {
   width: 35rem;
-  height: 25rem;
+  height: 20rem;
   padding: 3rem;
   position: relative;
 
