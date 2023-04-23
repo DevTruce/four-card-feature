@@ -58,7 +58,7 @@
 // CARD
 
 .card {
-  width: 35rem;
+  width: 30rem;
   height: 20rem;
   padding: 3rem;
   position: relative;
@@ -83,13 +83,14 @@
     font-size: $font-large;
     font-weight: 600;
     padding: 1rem 0;
+    width: 80%;
   }
 
   &__text {
     font-size: $font-small;
     line-height: 2;
     opacity: 0.5;
-    width: 80%;
+    width: 90%;
   }
 
   &__icon {
