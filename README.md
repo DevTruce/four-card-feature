@@ -63,6 +63,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](product-link)
+[![Product Name Screen Shot][product-screenshot2]](product-link)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,6 +180,7 @@ Discord: [Xzypher#9999]()
 <!-- ## Project ## -->
 
 [product-screenshot]: src/imgs/project-view.png
+[product-screenshot2]: src/imgs/project-view2.png
 [product-link]: https://devtruce.github.io/four-card-feature/
 
 <!-- ## Tech & Tools ## -->
