@@ -1,0 +1,56 @@
+//////////////////////////////////////////////////
+// COLORS
+$color-red: hsl(0, 78%, 62%);
+$color-cyan: hsl(180, 62%, 55%);
+$color-orange: hsl(34, 97%, 64%);
+$color-blue: hsl(212, 86%, 64%);
+
+$color-grey--1: hsl(234, 12%, 34%);
+$color-grey--2: hsl(229, 6%, 66%);
+$color-grey--3: hsl(0, 0%, 98%);
+
+//////////////////////////////////////////////////
+// FONTS
+$font-small: 1.3rem;
+$font-medium: 1.5rem;
+$font-large: 2rem;
+$font-huge: 3.6rem;
+
+//////////////////////////////////////////////////
+// MEDIA QUERY MANAGER
+@mixin respond($breakpoint) {
+  @if $breakpoint == desktop {
+    @media only screen and (max-width: 87.5em) {
+      // 1400px and below
+      @content;
+    }
+  }
+
+  @if $breakpoint == tablet {
+    @media only screen and (max-width: 75em) {
+      // 1200px and below
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 51.875em) {
+      // 830px and below
+      @content;
+    }
+  }
+
+  @if $breakpoint == small-phone {
+    @media only screen and (max-width: 32.5em) {
+      // 520px and below
+      @content;
+    }
+  }
+
+  @if $breakpoint == vs-phone {
+    @media only screen and (max-width: 24.375em) {
+      // 390px and below
+      @content;
+    }
+  }
+}

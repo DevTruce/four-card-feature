@@ -1,0 +1,158 @@
+//////////////////////////////////////////////////
+// Typography
+.heading--1 {
+  font-size: $font-huge;
+  font-weight: 200;
+}
+
+.heading--2 {
+  font-size: $font-huge;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+//////////////////////////////////////////////////
+// HEADER
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 37.5%;
+
+  @include respond(phone) {
+    width: 90%;
+  }
+
+  &__text {
+    opacity: 0.5;
+    width: 55rem;
+
+    @include respond(phone) {
+      width: 45rem;
+    }
+  }
+}
+
+//////////////////////////////////////////////////
+// MAIN
+
+.main {
+  height: 53rem;
+  margin-top: 7rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 25%);
+  grid-column-gap: 3rem;
+  grid-row-gap: 1.5rem;
+
+  @include respond(phone) {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+//////////////////////////////////////////////////
+// CARD
+
+.card {
+  width: 30rem;
+  height: 20rem;
+  padding: 3rem;
+  position: relative;
+
+  @include respond(phone) {
+    width: 31rem;
+    height: 22rem;
+
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
+
+  border-radius: 0.5rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+
+  transition: transform 250ms;
+
+  &__heading {
+    font-size: $font-large;
+    font-weight: 600;
+    padding: 1rem 0;
+    width: 80%;
+  }
+
+  &__text {
+    font-size: $font-small;
+    line-height: 2;
+    opacity: 0.5;
+    width: 90%;
+  }
+
+  &__icon {
+    display: block;
+    height: 6.4rem;
+    width: 6.4rem;
+
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+  }
+
+  &--1 {
+    border-top: 3.5px solid $color-cyan;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+
+    @include respond(phone) {
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+    }
+  }
+
+  &--2 {
+    border-top: 3.5px solid $color-red;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+
+    @include respond(phone) {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+  }
+
+  &--3 {
+    border-top: 3.5px solid $color-orange;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+
+    @include respond(phone) {
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+    }
+  }
+
+  &--4 {
+    border-top: 3.5px solid $color-blue;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+    @include respond(phone) {
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+    }
+  }
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
+}
