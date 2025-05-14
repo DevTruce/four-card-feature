@@ -18,7 +18,7 @@
 <h3 align="center">Four Card Feature</h3>
 
   <p align="center">
-    A professional feature section layout with responsive design.
+    professional feature section layout with responsive design.
     <br />
     <br />
     <a href="https://devtruce.github.io/four-card-feature/" target="_blank">View Demo</a>
